@@ -24,7 +24,7 @@ To execute the code contained within this repo, you will need access to an Azure
 git clone https://github.com/nickwiecien/AzureML_AutoML_For_Images
  ```
 
- - After cloning this repo navigate to the `./AzureML_AutoML_For_Images/PipelineDefinition.ipynb` notebook. Prior to executing cells in this notebook, update the variable values under the `Trigger a Pipeline Execution from the Notebook` header, specifically change these values: `MY_EXPERIMENT`, `MY_MODEL`, and `MY_DATASET`. The last value should be the name of your exported labeled dataset, the two prior should reflect something meaningful towards your experiment and the model you are creating. Once these values are updated run all cells in the notebook.
+ - After cloning this repo navigate to the `./AzureML_AutoML_For_Images/PipelineDefinition.ipynb` notebook. Prior to executing cells in this notebook, update the variable values under the 'Trigger a Pipeline Execution from the Notebook' header, specifically change these values: `MY_EXPERIMENT`, `MY_MODEL`, and `MY_DATASET`. The last value should be the name of your exported labeled dataset, the two prior should reflect something meaningful towards your experiment and the model you are creating. Once these values are updated run all cells in the notebook.
 
  - You can monitor experiment progress by navigating through the experiments tab in the AML Studio. The pipeline included here will kickoff an AutoML for Images child training run. By drilling into that experiment you can observe performance across models/epochs. Once the job completes, the best performing model will be registered in the AML workspace by default.
 
