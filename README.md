@@ -1,6 +1,6 @@
 # AzureML AutoML for Images Pipeline Sample (Object Detection)
 
-This repository contains sample code for creating an Azure Machine Learning pipeline to launch an AutoML for Images (specifically focused on object detection) using a labeled dataset sourced from an [AML-linked datastore](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-access-data), created and exported using (Azure ML's Data Labeling Tool)[https://docs.microsoft.com/en-us/azure/machine-learning/how-to-label-data]. Instructions for creating a labeled dataset, and executing the code within are contained in the document below.
+This repository contains sample code for creating an Azure Machine Learning pipeline to launch an AutoML for Images (specifically focused on object detection) using a labeled dataset sourced from an [AML-linked datastore](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-access-data), created and exported using [Azure ML's Data Labeling Tool](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-label-data). Instructions for creating a labeled dataset, and executing the code within are contained in the document below.
 
 ![Azure ML Object Detection Model Training (AutoML for Images)](img/automl.png?raw=true "Azure ML Object Detection Model Training (AutoML for Images)")
 
